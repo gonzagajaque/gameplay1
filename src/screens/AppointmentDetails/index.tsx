@@ -24,8 +24,8 @@ export function AppointmentDetails() {
     const members = [
         {
             id: '1',
-            username: 'Jaqueline',
-            avatar_url: 'https://github.com/gonzagajaque.png',
+            username: 'Rodrigo',
+            avatar_url: 'https://github.com/rodrigorgtic.png',
             status: 'online'
         },
         {
@@ -67,7 +67,7 @@ export function AppointmentDetails() {
 
             <ListHeader
                 title="Jogadores"
-                subtitle="Total 2"
+                subtitle="Total 3"
             />
 
             <FlatList
