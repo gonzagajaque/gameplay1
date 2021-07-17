@@ -24,6 +24,7 @@ export function SignIn() {
             await signIn();
         } catch (error) {
             Alert.alert(error);
+            console.log(error)
         }
     }
 
