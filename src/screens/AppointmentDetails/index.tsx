@@ -38,6 +38,7 @@ type GuildWidget = {
     name: string;
     instant_invite: string;
     members: MemberProps[];
+    presence_count: number;
 }
 
 export function AppointmentDetails() {
